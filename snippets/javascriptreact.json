@@ -1,0 +1,31 @@
+{
+  "jsxConditional": {
+    "prefix": "jsxif",
+    "body": [
+      "{condition ? (",
+      "  <Component />",
+      "): (",
+      "  <AnotherComponent />",
+      ")}"
+    ],
+    "description": "JSX conditional statement"
+  },
+  "jsxSwitchCase": {
+    "prefix": "jsxswitch",
+    "body": [
+      "{(() => {",
+      "  switch ($1) {",
+      "    case 'info':",
+      "      return ${2:<Info text={text} />}",
+      "    case 'warning':",
+      "      return ${3:<Warning text={text} />}",
+      "    case 'error':",
+      "      return ${4:<Error text={text} />}",
+      "    default:",
+      "      return null",
+      "  }",
+      "})()}"
+    ],
+    "description": "JSX switch case"
+  }
+}
