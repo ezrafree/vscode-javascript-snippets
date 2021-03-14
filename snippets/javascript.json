@@ -47,5 +47,19 @@
       "// eslint-disable-next-line no-console\nconsole.log('$1: ', $1)"
     ],
     "description": "console log with eslint disable comment"
+  },
+  "importStatement": {
+    "prefix": "imp",
+    "body": [
+      "import ${2:moduleName} from '${1:module}'$0"
+    ],
+    "description": "import default export"
+  },
+  "importNamed": {
+    "prefix": "impn",
+    "body": [
+      "import { $2 } from '${1:module}'$0"
+    ],
+    "description": "import named export"
   }
 }

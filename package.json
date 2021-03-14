@@ -1,60 +1,65 @@
 {
-    "name": "js-snippets",
-    "displayName": "JavaScript Snippets",
-    "description": "JavaScript snippets for VS Code",
-    "version": "0.0.3",
-    "publisher": "ezrafree",
-    "keywords": [
-        "snippet",
-        "snippets",
-        "react",
-        "redux",
-        "react-native",
-        "javascript",
-        "typescript",
-        "eslint"
-    ],
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ezrafree/vscode-javascript-snippets"
-    },
-    "engines": {
-        "vscode": "^1.54.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/javascript.json"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/javascript.json"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/javascriptreact.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/javascript.json"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/javascript.json"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/javascriptreact.json"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/typescriptreact.json"
-            }
-        ]
-    }
+	"name": "js-snippets",
+	"displayName": "JavaScript Snippets",
+	"description": "JavaScript snippets for VS Code",
+	"version": "0.0.4",
+	"publisher": "ezrafree",
+	"keywords": [
+		"snippet",
+		"snippets",
+		"react",
+		"redux",
+		"react-native",
+		"javascript",
+		"typescript",
+		"eslint"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ezrafree/vscode-javascript-snippets"
+	},
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/javascriptreact.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/javascriptreact.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescriptreact.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "9118f90d-03dd-433f-9f9b-b260a72a102b",
+		"publisherDisplayName": "Ezra Free",
+		"publisherId": "67787a32-e91f-4ffe-863f-45ecbcdfbc50"
+	}
 }

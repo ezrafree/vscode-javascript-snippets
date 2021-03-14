@@ -21,6 +21,13 @@ This is a small collection of useful JavaScript snippets for VS Code.
 | `esdisable`         | `/* eslint-disable @typescript-eslint/no-unused-vars */`           |
 | `esdisablenextline` | `/* eslint-disable-next-line @typescript-eslint/no-unused-vars */` |
 
+### Import Statements
+
+| Shortcut | Command                                |
+| -------- | -------------------------------------- |
+| `imp`    | `import defaultExport from 'module'`   |
+| `impn`   | `import { namedExport } from 'module'` |
+
 ## Install Instructions
 
 This extension can be installed through the VS Code Marketplace:
@@ -34,11 +41,38 @@ cd ~/.vscode/extensions
 git clone git@github.com:ezrafree/vscode-javascript-snippets.git ezrafree.js-snippets
 ```
 
+## Configuring
+
+You may want to disable keywords in your configuration to make accessing snippets easier:
+
+```json
+{
+  "[javascript]": {
+    "editor.suggest.showKeywords": false
+  },
+  "[javascriptreact]": {
+    "editor.suggest.showKeywords": false
+  },
+  "[typescript]": {
+    "editor.suggest.showKeywords": false
+  },
+  "[typescriptreact]": {
+    "editor.suggest.showKeywords": false
+  }
+}
+```
+
+Learn more about configuring snippets in the [VS Code IntelliSense documentation](https://code.visualstudio.com/docs/editor/intellisense#_customizing-intellisense).
+
 ## Known Issues
 
 There are no known issues at this time, please reach out if you discover anything.
 
 ## Release Notes
+
+### 0.0.4
+
+Add snippets for default export and named export import statements
 
 ### 0.0.3
 
