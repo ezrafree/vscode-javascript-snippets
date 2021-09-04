@@ -70,6 +70,10 @@ There are no known issues at this time, please reach out if you discover anythin
 
 ## Release Notes
 
+### 0.0.5
+
+Add React Native TypeScript functional component snippet
+
 ### 0.0.4
 
 Add snippets for default export and named export import statements

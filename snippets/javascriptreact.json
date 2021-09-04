@@ -27,5 +27,56 @@
       "})()}"
     ],
     "description": "JSX switch case"
+  },
+  "reactComponent": {
+    "prefix": "react",
+    "body": [
+      "import React, { FunctionComponent } from 'react'",
+      "",
+      "const ${1:MyComponentName}: FunctionComponent = () => {",
+      "  return (",
+      "    <div>",
+      "    ",
+      "    </div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:MyComponentName}",
+      ""
+    ],
+    "description": "React functional component"
+  },
+  "reactNativeComponent": {
+    "prefix": "reactnative",
+    "body": [
+      "import React, { FunctionComponent, ReactNode } from 'react'",
+      "import { StyleSheet, Text, View } from 'react-native'",
+      "",
+      "const ${1:MyComponentName}: FunctionComponent = ({",
+      "  children,",
+      "}) => {",
+      "  return (",
+      "    <View",
+      "      style={{",
+      "        flex: 1,",
+      "        justifyContent: \"center\",",
+      "        alignItems: \"center\"",
+      "      }",
+      "    }>",
+      "      <Text className={center}>Hello, world!</Text>",
+      "    </View>",
+      "  )",
+      "}",
+      "",
+      "const styles = StyleSheet.create({",
+      "  center: {",
+      "    alignItems: 'center'",
+      "  }",
+      "})",
+      "",
+      "export default ${1:MyComponentName}",
+      ""
+    ],
+    "description": "React Native functional component"
   }
 }

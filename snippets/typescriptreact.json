@@ -1,6 +1,6 @@
 {
-  "functionalComponent": {
-    "prefix": "fc",
+  "reactComponentTypeScript": {
+    "prefix": "react-typescript",
     "body": [
       "import React, { FunctionComponent } from 'react'",
       "",
@@ -16,5 +16,42 @@
       ""
     ],
     "description": "React TypeScript functional component"
+  },
+  "reactNativeComponentTypeScript": {
+    "prefix": "reactnative-typescript",
+    "body": [
+      "import React, { FunctionComponent, ReactNode } from 'react'",
+      "import { StyleSheet, Text, View } from 'react-native'",
+      "",
+      "type ${1:MyComponentName}Props = {",
+      "  children: ReactNode",
+      "}",
+      "",
+      "const ${1:MyComponentName}: FunctionComponent<${1:MyComponentName}Props> = ({",
+      "  children,",
+      "}: ${1:MyComponentName}Props) => {",
+      "  return (",
+      "    <View",
+      "      style={{",
+      "        flex: 1,",
+      "        justifyContent: \"center\",",
+      "        alignItems: \"center\"",
+      "      }",
+      "    }>",
+      "      <Text className={center}>Hello, world!</Text>",
+      "    </View>",
+      "  )",
+      "}",
+      "",
+      "const styles = StyleSheet.create({",
+      "  center: {",
+      "    alignItems: 'center'",
+      "  }",
+      "})",
+      "",
+      "export default ${1:MyComponentName}",
+      ""
+    ],
+    "description": "React Native TypeScript functional component"
   }
 }
