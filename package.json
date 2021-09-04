@@ -2,7 +2,7 @@
 	"name": "js-snippets",
 	"displayName": "JavaScript Snippets",
 	"description": "JavaScript snippets for VS Code",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"publisher": "ezrafree",
 	"keywords": [
 		"snippet",
@@ -46,10 +46,6 @@
 			{
 				"language": "typescriptreact",
 				"path": "./snippets/javascript.json"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/javascriptreact.json"
 			},
 			{
 				"language": "typescriptreact",

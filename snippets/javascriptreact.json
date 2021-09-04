@@ -31,9 +31,9 @@
   "reactComponent": {
     "prefix": "react",
     "body": [
-      "import React, { FunctionComponent } from 'react'",
+      "import React from 'react'",
       "",
-      "const ${1:MyComponentName}: FunctionComponent = () => {",
+      "const ${1:MyComponentName} = () => {",
       "  return (",
       "    <div>",
       "    ",
@@ -49,10 +49,10 @@
   "reactNativeComponent": {
     "prefix": "reactnative",
     "body": [
-      "import React, { FunctionComponent, ReactNode } from 'react'",
+      "import React from 'react'",
       "import { StyleSheet, Text, View } from 'react-native'",
       "",
-      "const ${1:MyComponentName}: FunctionComponent = ({",
+      "const ${1:MyComponentName} = ({",
       "  children,",
       "}) => {",
       "  return (",

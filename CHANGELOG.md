@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [0.0.6]
+
+- Don't load `javascriptreact.json` in TypeScript files
+
 ## [0.0.5]
 
 - Add React Native TypeScript functional component snippet
