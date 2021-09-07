@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [0.0.7]
+
+- Specify the correct className for the `<Text>` element
+
 ## [0.0.6]
 
 - Don't load `javascriptreact.json` in TypeScript files

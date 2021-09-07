@@ -70,6 +70,10 @@ There are no known issues at this time, please reach out if you discover anythin
 
 ## Release Notes
 
+### 0.0.7
+
+Specify the correct className for the `<Text>` element
+
 ### 0.0.6
 
 Don't load `javascriptreact.json` in TypeScript files

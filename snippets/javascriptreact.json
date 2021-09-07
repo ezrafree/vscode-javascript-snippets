@@ -63,7 +63,7 @@
       "        alignItems: \"center\"",
       "      }",
       "    }>",
-      "      <Text className={center}>Hello, world!</Text>",
+      "      <Text className={styles.center}>Hello, world!</Text>",
       "    </View>",
       "  )",
       "}",
