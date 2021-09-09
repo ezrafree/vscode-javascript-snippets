@@ -2,6 +2,10 @@
 
 All notable changes to the "vscode-javascript-snippets" extension will be documented in this file.
 
+## [0.0.9]
+
+- Avoid naming collision
+
 ## [0.0.8]
 
 - Add unit testing snippets

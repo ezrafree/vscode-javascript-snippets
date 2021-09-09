@@ -30,10 +30,10 @@ This is a small collection of useful JavaScript snippets for VS Code.
 
 ### Jest Unit Tests
 
-| Shortcut | Command               |
-| -------- | --------------------- |
-| `test`   | Unit test boilerplate |
-| `spec`   | `it('', () => {})`    |
+| Shortcut   | Command               |
+| ---------- | --------------------- |
+| `testfile` | Unit test boilerplate |
+| `testspec` | `it('', () => {})`    |
 
 ## Install Instructions
 
@@ -76,6 +76,10 @@ Learn more about configuring snippets in the [VS Code IntelliSense documentation
 There are no known issues at this time, please reach out if you discover anything.
 
 ## Release Notes
+
+### 0.0.9
+
+Avoid naming collision
 
 ### 0.0.8
 
