@@ -78,5 +78,32 @@
       ""
     ],
     "description": "React Native functional component"
+  },
+  "unitTest": {
+    "prefix": "test",
+    "body": [
+      "import { fireEvent, render } from '@testing-library/react-native'",
+      "import React from 'react'",
+      "",
+      "import { ${1:named} } from '${2:component}'",
+      "",
+      "describe('${3:SuiteName}', () => {",
+      "    beforeEach(() => {})",
+      "    it('${4:SpecName}', () => {",
+      "        ${5:SpecImplementation}",
+      "    })",
+      "})",
+      ""
+    ],
+    "description": "Unit Test"
+  },
+  "unitTestSpec": {
+    "prefix": "testspec",
+    "body": [
+      "    it('${1:SpecName}', () => {",
+      "        ${2:SpecImplementation}",
+      "    })"
+    ],
+    "description": "Unit Test Spec"
   }
 }

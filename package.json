@@ -2,17 +2,18 @@
 	"name": "js-snippets",
 	"displayName": "JavaScript Snippets",
 	"description": "JavaScript snippets for VS Code",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"publisher": "ezrafree",
 	"keywords": [
 		"snippet",
 		"snippets",
 		"react",
-		"redux",
 		"react-native",
 		"javascript",
 		"typescript",
-		"eslint"
+		"eslint",
+		"jest",
+		"testing"
 	],
 	"license": "MIT",
 	"repository": {

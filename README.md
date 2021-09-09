@@ -28,6 +28,13 @@ This is a small collection of useful JavaScript snippets for VS Code.
 | `imp`    | `import defaultExport from 'module'`   |
 | `impn`   | `import { namedExport } from 'module'` |
 
+### Jest Unit Tests
+
+| Shortcut | Command               |
+| -------- | --------------------- |
+| `test`   | Unit test boilerplate |
+| `spec`   | `it('', () => {})`    |
+
 ## Install Instructions
 
 This extension can be installed through the VS Code Marketplace:
@@ -69,6 +76,10 @@ Learn more about configuring snippets in the [VS Code IntelliSense documentation
 There are no known issues at this time, please reach out if you discover anything.
 
 ## Release Notes
+
+### 0.0.8
+
+Add unit testing snippets
 
 ### 0.0.7
 
