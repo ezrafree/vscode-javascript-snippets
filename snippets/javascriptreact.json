@@ -80,7 +80,7 @@
     "description": "React Native functional component"
   },
   "unitTest": {
-    "prefix": "test",
+    "prefix": "testfile",
     "body": [
       "import { fireEvent, render } from '@testing-library/react-native'",
       "import React from 'react'",
