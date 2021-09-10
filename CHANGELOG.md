@@ -1,6 +1,10 @@
 # Change Log
 
-All notable changes to the "vscode-javascript-snippets" extension will be documented in this file.
+All notable changes to the "js-snippets" extension will be documented in this file.
+
+## [0.0.10]
+
+- Adjust tests snippets
 
 ## [0.0.9]
 

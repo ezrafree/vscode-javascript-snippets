@@ -35,6 +35,13 @@ This is a small collection of useful JavaScript snippets for VS Code.
 | `testfile` | Unit test boilerplate |
 | `testspec` | `it('', () => {})`    |
 
+### React Components
+
+| Shortcut      | Command                            |
+| ------------- | ---------------------------------- |
+| `react`       | React component boilerplate        |
+| `reactnative` | React Native component boilerplate |
+
 ## Install Instructions
 
 This extension can be installed through the VS Code Marketplace:
@@ -76,6 +83,10 @@ Learn more about configuring snippets in the [VS Code IntelliSense documentation
 There are no known issues at this time, please reach out if you discover anything.
 
 ## Release Notes
+
+### 0.0.10
+
+Adjust tests snippets
 
 ### 0.0.9
 
