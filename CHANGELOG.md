@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [0.1.1]
+
+- Update HTML document snippet.
+
 ## [0.1.0]
 
 - Bump version number to minor. Add HTML document snippet.
