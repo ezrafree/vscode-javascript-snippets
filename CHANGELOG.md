@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [0.1.3]
+
+- Update HTML document snippet. Remove CHANGELOG from README.
+
 ## [0.1.2]
 
 - Update HTML document snippet.

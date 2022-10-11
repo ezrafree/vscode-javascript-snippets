@@ -2,7 +2,7 @@
 	"name": "js-snippets",
 	"displayName": "JavaScript Snippets",
 	"description": "JavaScript snippets for VS Code",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"publisher": "ezrafree",
 	"keywords": [
 		"snippet",
@@ -13,7 +13,8 @@
 		"typescript",
 		"eslint",
 		"jest",
-		"testing"
+		"testing",
+		"html"
 	],
 	"license": "MIT",
 	"repository": {
