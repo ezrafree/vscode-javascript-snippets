@@ -1,6 +1,6 @@
 {
   "htmlDocument": {
-    "prefix": "html",
+    "prefix": "htmldoc",
     "body": [
       "<!doctype html>",
       "<html lang=\"en-us\">",

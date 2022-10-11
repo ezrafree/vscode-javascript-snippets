@@ -12,7 +12,7 @@ This is a small collection of useful JavaScript snippets for VS Code.
 | `clog`     | `console.log(foo)`                                                    |
 | `cljson`   | `console.log(JSON.stringify(foo, null, 2))`                           |
 | `clobj`    | `console.log({ foo })`                                                |
-| `cleslint` | `// eslint-disable-next-line no-console`<br>`console.log('$1: ', $1)` |
+| `cleslint` | `// eslint-disable-next-line no-console \n console.log('$1: ', $1)`   |
 
 ### Eslint
 
