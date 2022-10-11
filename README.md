@@ -84,6 +84,10 @@ There are no known issues at this time, please reach out if you discover anythin
 
 ## Release Notes
 
+### 0.1.2
+
+Update HTML document snippet.
+
 ### 0.1.1
 
 Update HTML document snippet.
