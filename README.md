@@ -35,12 +35,13 @@ This is a small collection of useful JavaScript snippets for VS Code.
 | `testfile` | Unit test boilerplate |
 | `testspec` | `it('', () => {})`    |
 
-### React Components
+### React
 
-| Shortcut      | Command                            |
-| ------------- | ---------------------------------- |
-| `react`       | React component boilerplate        |
-| `reactnative` | React Native component boilerplate |
+| Shortcut                 | Command                            |
+| ------------------------ | ---------------------------------- |
+| `react-typescript`       | React component boilerplate        |
+| `reactnative-typescript` | React Native component boilerplate |
+| `useEffectHook`          | React useEffect hook boilerplate   |
 
 ## Install Instructions
 
