@@ -2,12 +2,21 @@
   "reactComponentTypeScript": {
     "prefix": "react-typescript",
     "body": [
-      "import React, { FunctionComponent } from 'react'",
+      "import { useContext, useEffect, useState } from 'react'",
+      "import { Typography, colors } from 'design'",
       "",
-      "const ${1:MyComponentName}: FunctionComponent = () => {",
+      "import './${1:MyComponentName}.scss'",
+      "",
+      "interface ${1:MyComponentName}Props {",
+      "  loading: boolean",
+      "}",
+      "",
+      "const ${1:MyComponentName} = ({",
+      "  loading,",
+      "}: ${1:MyComponentName}Props) => {",
       "  return (",
       "    <div>",
-      "    ",
+      "     ${2:Hello, world}",
       "    </div>",
       "  )",
       "}",
@@ -53,5 +62,19 @@
       ""
     ],
     "description": "React Native TypeScript functional component"
+  },
+  "useEffectHook": {
+    "prefix": "reactnative-typescript",
+    "body": [
+      "useEffect(() => {",
+      " ${1:console.log('render')}",
+      "",
+      " return () => {",
+      "   ${2:console.log('clean up')}",
+      " }",
+      "})",
+      ""
+    ],
+    "description": "React useEffect hook"
   }
 }
