@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [0.1.5]
+
+- Update useEffectHook snippet.
+
 ## [0.1.4]
 
 - Update React TypeScript snippets. Add a new useEffectHook snippet.
