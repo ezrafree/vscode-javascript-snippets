@@ -76,5 +76,25 @@
       ""
     ],
     "description": "React useEffect hook"
+  },
+  "describeTest": {
+    "prefix": "describe",
+    "body": [
+      "describe('${1:my feature}', () => {",
+      "  ${2}",
+      "})",
+      ""
+    ],
+    "description": "Unit test describe function"
+  },
+  "itShould": {
+    "prefix": "it",
+    "body": [
+      "it('${1:should}', () => {",
+      "  ${2}",
+      "})",
+      ""
+    ],
+    "description": "Unit test it function"
   }
 }
