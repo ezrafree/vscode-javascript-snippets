@@ -17,6 +17,15 @@
     ],
     "description": "Unit Test"
   },
+  "unitTestDescribe": {
+    "prefix": "testdescribe",
+    "body": [
+      "    describe('${1:Suite Name}', () => {",
+      "        ${2:// do something}",
+      "    })"
+    ],
+    "description": "Unit Test Spec"
+  },
   "unitTestSpec": {
     "prefix": "testspec",
     "body": [
@@ -25,5 +34,12 @@
       "    })"
     ],
     "description": "Unit Test Spec"
+  },
+  "unitTestAssert": {
+    "prefix": "testassert",
+    "body": [
+      "    expect(${1:variable}).toEqual(${2:result})"
+    ],
+    "description": "Unit Test Assertion"
   }
 }

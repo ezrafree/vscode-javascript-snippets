@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [0.1.7]
+
+- Add `expect` snippets for unit tests.
+
 ## [0.1.6]
 
 - Add `describe` and `it` snippets for unit tests.

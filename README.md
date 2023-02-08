@@ -30,10 +30,12 @@ This is a small collection of useful JavaScript snippets for VS Code.
 
 ### Jest Unit Tests
 
-| Shortcut   | Command               |
-| ---------- | --------------------- |
-| `testfile` | Unit test boilerplate |
-| `testspec` | `it('', () => {})`    |
+| Shortcut       | Command                               |
+| -------------- | ------------------------------------- |
+| `testfile`     | Unit test boilerplate                 |
+| `testdescribe` | `describe('', () => {})`              |
+| `testspec`     | `it('', () => {})`                    |
+| `testassert`   | `expect(variable).toEqual(result)`    |
 
 ### React
 
