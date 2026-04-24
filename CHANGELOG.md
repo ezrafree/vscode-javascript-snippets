@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [1.0.1]
+
+- Add deprecation notice to this package.
+
 ## [1.0.0]
 
 - Add HTML snippets to create boilerplate HTML files quickly.

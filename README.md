@@ -9,6 +9,8 @@
   </a>
 </p>
 
+> This extension has been replaced by [EZ Snippets](https://marketplace.visualstudio.com/items?itemName=ezrafree.ez-snippets) and is now deprecated. No further updates will be made to this extension.
+
 This is a small collection of useful JavaScript and frontend snippets for VS Code.
 
 ## Install Instructions
