@@ -2,18 +2,104 @@
   "HTML Document": {
     "prefix": "html",
     "body": [
-      "<html>",
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
       "",
       "<head>",
+      "  <meta charset=\"UTF-8\">",
+      "  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+      "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
       "  <title>${1:Hello, world}</title>",
+      "  <meta name=\"description\" content=\"${2:Page description}\">",
+      "  <link rel=\"canonical\" href=\"https://${3:example.com}\">",
+      "  <link rel=\"icon\" href=\"${4:favicon.svg}\">",
       "</head>",
       "",
       "<body>",
-      "  ${2:<h1>Hello, world.</h1>}",
+      "  <h1>${5:Hello, world.}</h1>",
+      "  ${6}",
       "</body>",
       "",
       "</html>"
     ],
     "description": "Start an HTML document"
+  },
+  "HTML Open Graph Tags": {
+    "prefix": "meta-og",
+    "body": [
+      "<meta property=\"og:title\" content=\"${1:Page Title}\">",
+      "<meta property=\"og:description\" content=\"${2:Page description}\">",
+      "<meta property=\"og:image\" content=\"https://${3:example.com/image.jpg}\">",
+      "<meta property=\"og:url\" content=\"https://${4:example.com}\">",
+      "<meta property=\"og:type\" content=\"${5|website,article,profile|}\">"
+    ],
+    "description": "Open Graph meta tags"
+  },
+  "HTML Twitter Card Tags": {
+    "prefix": "meta-twitter",
+    "body": [
+      "<meta name=\"twitter:card\" content=\"${1|summary,summary_large_image|}\">",
+      "<meta name=\"twitter:title\" content=\"${2:Page Title}\">",
+      "<meta name=\"twitter:description\" content=\"${3:Page description}\">",
+      "<meta name=\"twitter:image\" content=\"https://${4:example.com/image.jpg}\">"
+    ],
+    "description": "Twitter Card meta tags"
+  },
+
+  "HTML Script Tag": {
+    "prefix": "script-src",
+    "body": [
+      "<script src=\"${1:app.js}\" ${2|defer,async|}></script>"
+    ],
+    "description": "Script tag with src"
+  },
+
+  "HTML Stylesheet Link": {
+    "prefix": "link-stylesheet",
+    "body": [
+      "<link rel=\"stylesheet\" href=\"${1:styles.css}\">"
+    ],
+    "description": "Stylesheet link tag"
+  },
+
+  "HTML Preload": {
+    "prefix": "link-preload",
+    "body": [
+      "<link rel=\"preload\" href=\"${1:file}\" as=\"${2|font,image,script,style,fetch|}\" ${3|crossorigin=''|}>"
+    ],
+    "description": "Preload link tag"
+  },
+
+  "HTML Font Face": {
+    "prefix": "font-face",
+    "body": [
+      "@font-face {",
+      "  font-family: '${1:FontName}';",
+      "  src: url('${2:fonts/fontname.woff2}') format('woff2'),",
+      "       url('${3:fonts/fontname.woff}') format('woff');",
+      "  font-weight: ${4|normal,bold,100,200,300,400,500,600,700,800,900|};",
+      "  font-style: ${5|normal,italic|};",
+      "  font-display: ${6|swap,auto,block,fallback,optional|};",
+      "}"
+    ],
+    "description": "Self-hosted @font-face block"
+  },
+  "HTML Style Block": {
+    "prefix": "style",
+    "body": [
+      "<style>",
+      "  ${1}",
+      "</style>"
+    ],
+    "description": "Inline style block"
+  },
+  "HTML Script Block": {
+    "prefix": "script",
+    "body": [
+      "<script>",
+      "  ${1}",
+      "</script>"
+    ],
+    "description": "Inline script block"
   }
 }

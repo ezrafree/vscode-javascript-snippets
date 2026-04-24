@@ -1,8 +1,37 @@
 # JavaScript Snippets
 
-This is a small collection of useful JavaScript snippets for VS Code.
+<p>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ezrafree.js-snippets">
+    <img src="https://vsmarketplacebadges.dev/version/ezrafree.js-snippets.svg" alt="Version" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ezrafree.js-snippets">
+    <img src="https://vsmarketplacebadges.dev/installs/ezrafree.js-snippets.svg" alt="Installs" />
+  </a>
+</p>
+
+This is a small collection of useful JavaScript and frontend snippets for VS Code.
+
+## Install Instructions
+
+This extension can be installed through the VS Code Marketplace:
+
+[https://marketplace.visualstudio.com/items?itemName=ezrafree.js-snippets](https://marketplace.visualstudio.com/items?itemName=ezrafree.js-snippets)
 
 ## Features
+
+### HTML
+
+| Shortcut   | Command                                                               |
+| ---------- | --------------------------------------------------------------------- |
+| `html`       | an HTML boilerplate with tab stops                                           |
+| `meta-og`     | OpenGraph meta tags                                                    |
+| `meta-twitter`   | Twitter meta tags                           |
+| `script-src`    | `<script src="${1}" ${2\|defer,async\|}></script>`                                                |
+| `script`    | `<script></script>`                                                |
+| `style`    | `<style></style>`                                                |
+| `link-stylesheet` | `<link rel="stylesheet" href="$1">`   |
+| `link-preload` | `<link rel="preload" href="${1:file}" as="${2\|font,image,script,style,fetch\|}" ${3\|crossorigin=''\|}>`   |
+| `font-face` | a self-hosted `@font-face` block   |
 
 ### Console Logs
 
@@ -43,44 +72,4 @@ This is a small collection of useful JavaScript snippets for VS Code.
 | ------------------------ | ---------------------------------- |
 | `react-typescript`       | React component boilerplate        |
 | `reactnative-typescript` | React Native component boilerplate |
-| `useEffectHook`          | React useEffect hook boilerplate   |
-
-## Install Instructions
-
-This extension can be installed through the VS Code Marketplace:
-
-[https://marketplace.visualstudio.com/items?itemName=ezrafree.js-snippets](https://marketplace.visualstudio.com/items?itemName=ezrafree.js-snippets)
-
-For development, you can also install manually through git:
-
-```sh
-cd ~/.vscode/extensions
-git clone git@github.com:ezrafree/vscode-javascript-snippets.git ezrafree.js-snippets
-```
-
-## Configuring
-
-You may want to disable keywords in your configuration to make accessing snippets easier:
-
-```json
-{
-  "[javascript]": {
-    "editor.suggest.showKeywords": false
-  },
-  "[javascriptreact]": {
-    "editor.suggest.showKeywords": false
-  },
-  "[typescript]": {
-    "editor.suggest.showKeywords": false
-  },
-  "[typescriptreact]": {
-    "editor.suggest.showKeywords": false
-  }
-}
-```
-
-Learn more about configuring snippets in the [VS Code IntelliSense documentation](https://code.visualstudio.com/docs/editor/intellisense#_customizing-intellisense).
-
-## Known Issues
-
-There are no known issues at this time, please reach out if you discover anything.
+| `use-effect`          | React useEffect hook boilerplate   |

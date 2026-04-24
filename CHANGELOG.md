@@ -2,6 +2,12 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [1.0.0]
+
+- Add HTML snippets to create boilerplate HTML files quickly.
+- Add snippets for meta tags, link tags, script tags, style blocks and script blocks.
+- Standardize snippet prefix naming.
+
 ## [0.1.7]
 
 - Add `expect` snippets for unit tests.

@@ -64,7 +64,7 @@
     "description": "React Native TypeScript functional component"
   },
   "useEffectHook": {
-    "prefix": "useeffect",
+    "prefix": "use-effect",
     "body": [
       "useEffect(() => {",
       " ${1:console.log('render')}",
