@@ -2,6 +2,10 @@
 
 All notable changes to the "js-snippets" extension will be documented in this file.
 
+## [1.0.3]
+
+- Add deprecation notice to this package. See the 'EZ Snippets' extension instead.
+
 ## [1.0.2]
 
 - Add deprecation notice to this package. See the 'EZ Snippets' extension instead.
